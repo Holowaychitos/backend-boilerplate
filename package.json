@@ -1,0 +1,29 @@
+{
+  "name": "backend-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --serial test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Holowaychitos/backend-boilerplate.git"
+  },
+  "author": "Iddar Olivares <iddar@dbug.mx> (https://medium.com/@iddar)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Holowaychitos/backend-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Holowaychitos/backend-boilerplate#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "express": "^4.14.0",
+    "js-data": "^2.9.0",
+    "js-data-mongodb": "^0.7.0",
+    "mongodb": "^2.2.9"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  }
+}
