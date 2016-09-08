@@ -1,9 +1,9 @@
 {
   "name": "backend-boilerplate",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
+    "start": "node ./bin/www",
     "test": "ava --serial test/*.test.js",
     "docs": "jsdoc **/*.js -d docs"
   },
@@ -18,12 +18,15 @@
   },
   "homepage": "https://github.com/Holowaychitos/backend-boilerplate#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "co": "^4.6.0",
+    "debug": "^2.2.0",
     "express": "^4.14.0",
     "js-data": "^2.9.0",
     "js-data-mongodb": "^0.7.0",
     "jsdoc": "^3.4.0",
-    "mongodb": "^2.2.9"
+    "mongodb": "^2.2.9",
+    "morgan": "^1.7.0"
   },
   "devDependencies": {
     "ava": "^0.16.0"
